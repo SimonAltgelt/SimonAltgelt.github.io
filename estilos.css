@@ -1,0 +1,408 @@
+/* HEADER */
+
+header{
+    background-color:rgba(7, 7, 50, 0.9);
+    background-blend-mode: soft-light;
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    padding: 35px;
+    color:white;
+    position: sticky;
+    display:flex;
+    top: 0px;
+}
+
+body, header{
+    margin: 0;
+}       
+
+div{
+    color:white;
+}
+
+body{
+    background-color:rgb(7, 7, 75);
+}
+
+th,td{
+    padding: 8px;
+    text-align: left;
+    border-radius: 10px;
+}
+
+a{
+    color:rgb(94, 234, 255)
+}
+
+table{
+    margin-top: 50px;
+}
+
+.customButton {
+    font-size: 24px; 
+    border: none; 
+    background: none; 
+    color: inherit; 
+    font-family: inherit; 
+    cursor: pointer; 
+    margin: 5px 20px; 
+    text-decoration: none;
+    padding: 0; 
+    transition: opacity 0.3s ease;
+}
+.customButton:hover {
+    opacity: 0.3;
+}
+
+
+
+
+/* PAGINA PRINCIPAL */
+
+
+
+
+.circuloFoto { 
+    width: 10.5%;
+    height: auto;
+    border-radius: 50%; 
+    overflow: hidden;
+    margin-top: 200px;
+    margin-left: 350px;
+}
+
+.circuloFoto img {
+    width: 100%; 
+    height: auto;
+    display: block; 
+}
+
+.principal{
+    background-color:rgb(7, 7, 75);
+    margin: 0;
+    color: white;
+    max-width: 100%;
+    height: auto;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    min-height: 100vh; 
+}
+
+.contenido {
+    display: flex; 
+    align-items: center;
+    margin-top: -200px;
+}    
+
+.texto {
+    font-family: 'MaquinaEscribir', monospace;
+    letter-spacing: .15em;
+    animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
+    text-align: left; 
+    padding: 40px;
+    margin-top: -920px;
+    margin-left: 0px;
+}
+
+
+
+
+
+/* PROYECTOS SEGUNDA PAGINA */
+
+
+
+
+
+#projects{
+    background-color: rgb(7, 7, 105);
+    min-height: 100vh; 
+    display: flex; 
+    align-items: center; 
+    margin-top: -350px;
+}
+.project-info {
+    display: flex;
+    align-items: center;
+    margin-left: 275px; 
+    margin-top: -50px; 
+    width: auto;
+}
+
+.project-info td {
+    transition: transform 0.3s ease; 
+}
+
+.project-info td:hover {
+    transform: scale(1.02); 
+    transition: transform 0.6s ease; 
+}
+
+
+.project-description {
+    width: 55.9%;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.070); 
+    margin-bottom: 20px; 
+    padding: 18px;
+}
+
+.project-description h2 {
+    color: white;
+}
+
+.project-description p {
+    color: white;
+}
+
+.project-description h2 {
+    color: white;
+}
+
+.project-description p {
+    color: white;
+}
+
+.circuloGif {
+    width: 28.6%;
+    height: 200px;
+    margin-left: 150px; 
+    border-radius: 50%; 
+    overflow: hidden; 
+}    
+
+.circuloGif img {
+    width: 100%; 
+    height: 100%;
+    display: block; 
+    margin-top: auto;
+    transition: none;
+}    
+
+.project-description2 {
+    background-color: rgba(255, 255, 255, 0.040); 
+    margin-bottom: 20px; 
+    padding: 18px;
+}
+
+.conocimientos{
+    background-color: rgb(7, 7, 90);
+}    
+
+
+
+
+/* CONOCIMIENTOS LENGUAJES */
+
+
+
+
+
+#conocimientos {
+    background-color: rgb(255, 255, 255); 
+    padding: 20px; 
+    margin: 20px auto; 
+    text-align: center; 
+    border-radius: 30px;
+    max-width: calc(100% - 350px);
+}    
+
+#conocimientos {
+    transition: transform 0.3s ease; 
+}
+
+#conocimientos:hover {
+    transform: scale(1.01); 
+    transition: transform 0.6s ease; 
+}
+
+#conocimientos h2 {
+    margin-top: 0; 
+    color:rgb(7, 7, 105);
+    font-size: 35px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}    
+
+.contenedor-iconos {
+    display: flex; 
+    justify-content: center; 
+    margin-top: 20px; 
+    overflow:hidden;
+}    
+
+.contenedor-iconos img {
+    width: 7.75%; 
+    height: 8.5%; 
+    margin: 0 20px; 
+    border-radius: 20%;
+    margin: 0 35px;
+}    
+
+
+
+
+
+/* CONTACTAME MAIL ULTMO */
+
+
+
+
+#Contacto{
+    min-height: 95vh;
+    font-family: verdana;
+    margin: 10px auto;
+    padding: 40px;
+    font-size: 14px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+
+.formulario-container {
+    border-radius: 25px;
+    max-width: 31.5%; 
+    margin: auto; 
+    background-color: rgba(255, 255, 255, 0.070);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+}
+
+.formulario-container h2{
+    text-align: center;
+    margin-top: 90px;
+}
+
+
+.formulario-container label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.formulario-container input[type="text"],
+.formulario-container input[type="email"],
+.formulario-container textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.formulario-container input[type="text"]:hover,
+.formulario-container input[type="email"]:hover,
+.formulario-container textarea:hover{
+    background-color:rgba(203, 203, 203, 0.94)
+}
+
+
+.formulario-container input[type="submit"] {
+    background-color: white;
+    color: rgb(7, 7, 105);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;   
+    margin-left: 220px ;
+    transition: opacity 0.4s ease;
+}
+
+.formulario-container input[type="submit"]:hover{
+    opacity: 0.5;
+}
+
+.redes {
+    margin-top: 200px;
+    display:flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.redes a {
+    margin: 0 10px;
+}
+
+.redes img {
+    width: 60px;
+    border-radius: 50%;
+    transition: opacity 0.3s ease, transform 0.3s ease; 
+}
+.redes img:hover {
+    opacity: 0.5;
+    transform: scale(0.985);
+}
+
+
+#mensaje{
+    resize: none;
+}
+
+/* HAGO EL RESPONSIVE */
+/* no anda */
+
+@media only screen and (max-width: 400px) {
+    .circuloFoto {
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .principal {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .contenido {
+        margin-top: -50px;
+    }
+
+    .texto {
+        margin-top: -320px;
+    }
+
+    .project-info {
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .circuloGif {
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .formulario-container h2 {
+        margin-top: 20px;
+    }
+
+    .redes {
+        margin-top: 100px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .circuloFoto {
+        width: 150px;
+        height: 150px;
+    }
+
+    .circuloGif {
+        width: 150px;
+        height: 150px;
+    }
+
+    .contenedor-iconos img {
+        width: 80px;
+        height: 80px;
+        margin: 0 10px;
+    }
+
+    .redes img {
+        width: 40px;
+    }
+}

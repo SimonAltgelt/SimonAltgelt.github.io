@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simon Altgelt</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="icon" type="image/png" href="ruta_al_icono.png">
+    <script src="codigos.js"></script>
+</head>
+
+
+<body>
+    <header>
+        <div id="Portfolio"></div>
+        <div>
+            <button class="customButton" onclick="scrollToTop('Portfolio')">Portfolio</button>
+            <button class="customButton" onclick="scrollToElement('Proyectos')">Mis proyectos</button>
+            <button class="customButton" onclick="scrollToElement('Contactos')">Contactame</button>
+        </div>
+    </header>
+    
+    
+    <div class="circuloFoto">
+        <img src="Imagenes/FotoSimon.jpg" alt="Foto">
+    </div>
+    
+    <div class="principal">  
+        <div class="contenido">
+            <div class="texto">
+                <h2 id="texto"></h2>
+            </div>
+        </div>   
+    </div>
+    
+    
+    
+    <div id="projects">
+        <div class="project-info">
+            <table>
+                <tr>
+                    <td class="project-description">
+                        <h2>• Proyecto Winform ABM (C# .Net)</h2>
+                            <p>Mi primer proyecto que me gustaría compartir es una aplicación de gestión de base de datos (ABM) que desarrollé junto con un compañero durante nuestros días en la facultad. Este proyecto fue un verdadero desafío para nosotros, ya que estábamos aprendiendo el lenguaje C# .NET. Sin embargo, nos lanzamos sin miedo y dimos lo mejor de nosotros.
+                                La aplicación consiste en una ABM que administra Artículos, Marcas y Categorías. Permite realizar operaciones como modificar, agregar y eliminar elementos, así como realizar filtros de búsqueda y ver detalles de cada artículo.
+                                Este proyecto representa nuestros primeros pasos en el mundo del desarrollo de software y nos brindó una valiosa experiencia en la aplicación práctica de los conceptos que estábamos aprendiendo en la universidad.
+                                <br>Podes encontrar el código fuente en nuestro repositorio de GitHub: <a href="https://github.com/Francoaguado08/-Tp-Winform-Equipo-6">github.com/Francoaguado08/-Tp-Winform-Equipo-6</a>
+                            </p>
+                    </td>
+                    <td>
+                        <div class="circuloGif">
+                            <img src="https://i.pinimg.com/originals/94/b2/1a/94b21a17d8a954aee4e7228457d52729.gif" alt="Foto">
+                        </div>    
+                    </td>
+                </tr>
+                <tr>
+                    <td class="project-description2">
+                        <h2>• Proyecto Sockets (C++)</h2>
+                        <p>Otro proyecto que quiero destacar es uno que desarrollé de forma autodidacta utilizando programación de sockets.
+                           Este proyecto me permitió crear una relación entre un servidor y un cliente para simular transacciones financieras.
+                           La funcionalidad principal consiste en que el cliente ingresa un monto, un número de tarjeta y un número de seguridad, luego el servidor verifica si estos datos se encuentran dentro de un rango determinado para determinar la validez de la tarjeta.
+                           Este proyecto representó un desafío significativo para mí, ya que nunca había trabajado con sockets antes y fue una de mis primeras incursiones en el aprendizaje autodidacta.
+                           Por eso, tiene un valor sentimental especial para mí. <br> Si te interesa, echale un vistazo en mi repositorio de GitHub: <a href="https://github.com/SimonAltgelt/sockets-priv">github.com/SimonAltgelt/sockets-priv</a>
+                           
+                        </p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div id="Proyectos"></div>
+
+    <div id="conocimientos">
+        <h2>Mis conocimientos</h2>
+        <div class="contenedor-iconos">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/C_Sharp_Logo_2023.svg/1200px-C_Sharp_Logo_2023.svg.png" alt="Lenguaje C#">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/.NET_Core_Logo.svg/2048px-.NET_Core_Logo.svg.png" alt="Lenguaje .Net">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1822px-ISO_C%2B%2B_Logo.svg.png" alt="Lenguaje C++">
+            <img src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_1280.png" alt="Lenguaje CSS">
+            <img src="https://i.pinimg.com/564x/0e/7d/4a/0e7d4ad55cdc3db527af6c3d72f41ad0.jpg" alt="Lenguaje HTML">
+        </div>
+    </div>
+
+
+    <div id="Contacto" class="formulario-container">
+        <h2>Ingrese sus datos para contactarme!</h2>
+        <form action="https://formspree.io/f/mrgnjowa" method="POST">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+    
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+    
+            <label for="asunto">Asunto:</label>
+            <input type="text" id="asunto" name="asunto" not required>
+    
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="8" cols="50" maxlength="600" required></textarea>
+    
+            <input type="submit" value="Enviar">
+
+            <input type="hidden" name="_next">
+            <input type="hidden" name="_captcha" value="false">
+        </form>
+        <div class="redes">
+            <a href="https://www.linkedin.com/in/simonaltgelt/" target="_blank"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRokEYt0yyh6uNDKL8uksVLlhZ35laKNQgZ9g&usqp=CAU" alt="LinkedIn"></a>
+            <a href="https://github.com/SimonAltgelt/" target="_blank"><img src="https://cdn.worldvectorlogo.com/logos/github-icon-2.svg" alt="GitHub"></a>
+            <a href="https://api.whatsapp.com/send?phone=5491126783460" target="_blank"><img src="https://i.pinimg.com/1200x/f3/28/bb/f328bb0bf57e412d328669e3d566746d.jpg" alt="WhatsApp"></a>
+            <a href="https://www.instagram.com/simon.altgelt/" target="_blank"><img src="https://wallpapers-clan.com/wp-content/uploads/2022/01/ocean-deep-blue-instagram-icon-aesthetic.png" alt="Instagram"></a>
+        </div>
+    </div>
+    <div id="Contactos"></div>
+    
+
+</body>
+
+</html>
