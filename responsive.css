@@ -1,0 +1,150 @@
+/* HAGO EL RESPONSIVE */
+/* no anda */
+@media only screen and (max-width: 1800px){
+    .circuloFoto{
+        margin-left:380px;
+
+
+        transition: margin-left 0.5s ease;     
+        transition: width 0.4s ease;
+    }
+    .texto{
+        margin-top: -840px;
+        margin-left: 280px;
+    }
+}
+
+
+@media only screen and (max-width: 1520px){
+    .circuloFoto {
+        width: 12%;
+        height: auto;
+
+        margin-left: 270px;
+        margin-top: 200px;
+        transition: margin-left 0.5s ease;
+        transition: margin-top 0.5s ease;
+        transition: width 0.4s ease;
+    }    
+}
+
+@media only screen and (max-width: 1270px){
+    .circuloFoto{
+        width: 14.5%;
+        height: auto;
+        margin-top: 160px;
+        margin-left: 530px;
+
+        transition: margin-left 0.5s ease;
+        transition: margin-top 0.5s ease;
+        transition: width 0.4s ease;
+    }
+    .texto{
+        margin-top: -420px;
+        margin-left: -40px;
+    }
+}
+
+@media only screen and (max-width: 1200px){
+    .circuloFoto{
+        width: 16.67%;
+        height: auto;
+        margin-left: 500px;
+
+        transition: margin-left 0.5s ease;
+        transition: margin-top 0.5s ease;
+        transition: width 0.4s ease;
+    }
+}
+
+@media only screen and (max-width: 1100px){
+    .circuloFoto{
+        width: 18.18%;
+        height: auto;
+        margin-left: 450px;
+
+        transition: margin-left 0.5s ease;
+        transition: margin-top 0.5s ease;
+        transition: width 0.4s ease;
+    }
+}
+
+@media only screen and (max-width: 1000px){
+    .circuloFoto{
+        width: 20%;
+        height: auto;
+        margin-left: 390px;
+
+        transition: margin-left 0.5s ease;
+        transition: margin-top 0.5s ease;
+        transition: width 0.4s ease;
+    }
+}
+
+@media only screen and (max-width: 900px){
+    .circuloFoto{
+        width: 22.22%;
+        height: auto;
+        margin-left: 340px;
+
+        transition: margin-left 0.5s ease;
+        transition: margin-top 0.5s ease;
+        transition: width 0.4s ease;
+    }
+   
+}
+
+@media only screen and (max-width: 800px){
+    .circuloFoto{
+        width: 25%;
+        height: auto;
+        margin-left: 290px;
+
+        transition: margin-left 0.5s ease;
+        transition: margin-top 0.5s ease;
+        transition: width 0.4s ease;
+    }
+}
+
+@media only screen and (max-width: 700px){
+    .circuloFoto{
+        width: 26%;
+        height: auto;
+        margin-top: 160px;
+
+        transition: margin-left 0.5s ease;
+        transition: margin-top 0.5s ease;
+        transition: width 0.4s ease;
+    }
+    .texto{
+        margin-left: 30px;
+
+    }
+    header{
+        width: 100%;
+        margin: 0;
+        display:contents;
+    }
+    .customButton{
+        margin-left: 12%;
+        margin-top: 30px;
+        
+    }
+}
+
+
+@media only screen and (max-width: 600px){
+    .circuloFoto{
+        width: 27%;
+        height: auto;
+
+
+        transition: margin-left 0.5s ease;
+        transition: margin-top 0.5s ease;
+        transition: width 0.4s ease;
+    }
+    .customButton{
+        margin-left: 4%;
+        margin-top: 30px;
+    }
+}
